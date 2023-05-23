@@ -1,0 +1,21 @@
+class EmployeeDetails
+{
+ public static void main(String args[])
+ {
+	String name="Prakash";
+	String ID= "1234Sa";
+	String desg="FSD";
+	int bSal=26000;
+	float hra=0.93F*bSal;
+	float da=0.51F*bSal;
+	float totSal=(bSal+hra+da);
+	System.out.println("EmpName="+name);
+	System.out.println("EmpId="+ID);
+	System.out.println("EmpDesg="+desg);
+	System.out.println("basic Salary="+bSal);
+	System.out.print("total Salary="+totSal);
+	
+
+
+ }
+}
